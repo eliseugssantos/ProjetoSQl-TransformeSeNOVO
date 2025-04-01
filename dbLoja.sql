@@ -98,3 +98,4 @@ desc tbVendas;
 insert into tbFuncionarios(nome,email,cpf,talcel,dataNasc,sexo,salario,logradouro,numero,cep,bairro,cidade,estado,siglaEst,complemento)
 	values('Eliseu Souza','eliseu.@gmail.com','123.252.758-99','97528-8548','1996/06/05','M',4500.55,'Rua Miragens','55A','04750-000','santo amaro','Sao Paulo', 'Sao Paulo','SP','casa dos fundos');
 -- visualizando os registro das tabelas
+select * from tbFuncionarios;
